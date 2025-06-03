@@ -20,6 +20,6 @@ if __name__ == "__main__":
     run_forecast(
         "data/cleaned_data.csv",
         steps=90,
-        model_path="models/sarima_model.pkl",
+        model_path="models/arima_model.pkl",
         forecast_path="data/forecast.csv"
     )
