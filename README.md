@@ -1,9 +1,9 @@
 # stock-arima-forecast
-# 📊 AAPL Stock Price Forecast using ARIMA
+# AAPL Stock Price Forecast using ARIMA
 
 This project forecasts the next 90 trading days of Apple's daily closing price using a ARIMA time series model. The goal is to build a simple and interpretable pipeline that downloads historical stock data, processes it, fits a forecasting model, and visualizes the results.
 
-## 🔧 Tools Used
+## Tools Used
 
 - Python
 - yfinance (for historical stock data)
@@ -12,7 +12,7 @@ This project forecasts the next 90 trading days of Apple's daily closing price u
 - joblib (to save trained models)
 
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install Dependencies
 
@@ -41,7 +41,7 @@ python src/plot_forecast.py
 
 `plots/forecast_plot.png` — chart of forecast (shown as dots, not a line)
 
-### 🔎 Notes
+### Notes
 
 - Forecasts are based on 5+ years of daily data.
 
